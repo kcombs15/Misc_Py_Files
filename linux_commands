@@ -1,0 +1,2 @@
+#Copy everything in directory into another directory
+cp -R path/to/folder/* /path/to/new/dir
