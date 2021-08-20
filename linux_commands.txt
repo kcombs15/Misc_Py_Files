@@ -5,6 +5,9 @@ cp -R path/to/folder/* /path/to/new/dir
 find . -name '<name>*' -exec rm {} \;
 - <name> is string that files start with
 
+$Remove directory even if not empty
+rm -rf <dir name>
+
 ## Conda
 #Active conda environment
 conda activate <enviroment name>
