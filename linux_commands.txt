@@ -1,6 +1,10 @@
 #Copy everything in directory into another directory
 cp -R path/to/folder/* /path/to/new/dir
 
+#Remove files that start with certain name
+find . -name '<name>*' -exec rm {} \;
+- <name> is string that files start with
+
 ## Conda
 #Active conda environment
 conda activate <enviroment name>
